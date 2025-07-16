@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <style>
+        body{
+           background-image: url("img3.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-position: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            height: 100vh;
+
+        }
+        form{
+            width: 500px;
+            height: 350px;
+            border-radius: 10px;
+            background-color: white;
+            padding: 2%;
+            box-shadow: 12px 12px 12px black;
+         }
+        h1{
+            text-align: center;
+            text-shadow: 1px 1px 1px black;
+        }
+        .name{
+            width: 470px;
+            
+            height: 30px;
+            border-color: rgb(250, 247, 247);
+             border-radius: 20px;
+             padding-left: 3%;
+             background-color: rgb(250, 247, 247);
+        
+        }
+        .email{
+               padding-left: 3%;
+             background-color: rgb(250, 247, 247);
+            margin-top: 3%;
+            width: 470px;
+            height: 30px;
+            border-color: rgb(245, 241, 241);
+             border-radius: 20px;
+        }
+         .password{
+               padding-left: 3%;
+             background-color: rgb(250, 247, 247);
+             margin-top: 3%;
+            width: 470px;
+            height: 30px;
+            border-color: rgb(250, 247, 247);
+             border-radius: 20px;
+        }
+        .btn{
+             margin-top: 8%;
+            width: 478px;
+            height: 45px;
+            background-color: rgb(247, 3, 60);
+            border-radius: 20px;
+            border: none;
+            font-weight: bold;
+            transition: 0.5s;
+            color: white;
+        }
+        .btn:hover{
+            opacity: 0.5;
+            cursor: pointer;
+
+        }
+        .btn:active{
+            background-color: aquamarine;
+        }
+    </style>''
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vitrine</title>
+</head>
+<body>
+    <form method="get" action="index1.html">
+        <h1>INSCRIPTION FASTFOOD</h1>
+        <input type="text" name="nom" placeholder="🙍‍♂️ name" class="name" required><br>
+        <input type="email" name="email" placeholder="✉ email" class="email" required><br>
+        <input type="password" name="password" placeholder="🔒 password" class="password" required><br>
+        <input type="password" name="password" placeholder="🔒 Confirm password" class="password" required><br>
+        <button class="btn">INSCRIPTION</button>
+    </form>
+</body>
+ 
+ </script>
+</html>
