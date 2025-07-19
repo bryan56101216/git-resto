@@ -67,5 +67,48 @@ for( var i=0, c=divs.length;i<c;i++){
  burger.addEventListener("click", () => {
   rows.classList.toggle("active");
 });
- 
+
+document.body.onload=function(){
+  const nbr=3;
+  let p=0;
+  const carrousel= document.querySelectorAll(".row9");
+  const carrousel1= document.querySelectorAll(".row10");
+  const container= document.querySelectorAll(".container1")
+  const prev = document.querySelectorAll("#prev");
+  const next = document.querySelectorAll("#next");
+  const div = document.querySelectorAll(".row9a");
+
+for (let index = 0; index < 2; index++) {
   
+  next[index].onclick=function(){
+  p--;
+    container[index].style.transform="translateX("+p*435+"px)";
+     div[index].style.transition="all 0.5s ease";
+    afficherMasque();
+  }
+   prev[index].onclick=function(){
+  p++;
+   container[index].style.transform="translateX("+p*435+"px)";
+    div[index].style.transition="all 0.5s ease";
+    afficherMasque();
+    
+    }
+    function afficherMasque(){
+      if(p==0)
+        prev[index].style.visibility="hidden";
+      else
+        prev[index].style.visibility ="visible";
+      if(p==-nbr)
+        next[index].style.visibility="hidden";
+      else
+        next[index].style.visibility ="visible";
+
+    }
+
+
+  afficherMasque();
+  }
+  }
+
+
+
