@@ -1,6 +1,7 @@
 *{
     margin-left: 0;
     text-decoration: none;
+    margin-right: 0;
 }
 body{
 font-family: sans-serif;
@@ -79,6 +80,10 @@ span{
   .btn1{
     display: none;
   }
+    .row4a {
+ margin-top: -7%;
+
+    }
     .row2{
     display: none;
     position: absolute;
@@ -100,13 +105,14 @@ span{
     
     }
     .row9{
-        width: 95%;
+        width: 94%;
         height: 400px;
         overflow: hidden;
        
     }
+   
     .row10{
-        width: 95%;
+        width: 94%;
         height: 400px;
      
     }
@@ -115,7 +121,7 @@ span{
     }
     .container1{
          padding-left: 0;
-        width: 95%;
+        width: 94%;
         height: 400px;
         background-color: aqua;
            overflow: hidden;
@@ -274,6 +280,10 @@ form{
 .row13{
     width: 98%;
 }
+  .row4a{
+ padding-top: 5%;
+
+    }
 
   }
 .p1{
@@ -332,7 +342,7 @@ header h1{
 }
 .row4a{
     
-    padding-top: 5%;
+    
     text-align: left;
     padding-left: 5%;
     height: 86.5%;
